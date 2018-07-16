@@ -11,6 +11,10 @@ namespace HelloWorld
 		static void Main(string[] args)
 		{
 			Console.WriteLine("Hello World");
+			var myVariable = 26 / 7;
+			var remainder = 26 % 7;
+			Console.WriteLine("The quotient is {0} and the remainder is {1}", myVariable, remainder);
+
 
 		}
 	}
