@@ -61,7 +61,7 @@ namespace If02
                 Console.WriteLine("{0} is not on our list. I like apples and oranges.", fruitname);
             }
 
-
+            Console.ReadKey();
         }
     }
 }
